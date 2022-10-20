@@ -1,6 +1,6 @@
 # Setup SFDX
 
-A simple github action to setup sfdx with any plugins for use in actions.
+A simple github action to setup sfdx with any plugins for use in actions. Using Node v14 LTS to support chaining etc.
 
 ## Inputs
 
