@@ -29,9 +29,9 @@ const onInstall = async ({ stdout, stderr }) => {
 };
 
 const install = async () => {
-  const installCommand = `wget -q https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz \
+  const installCommand = `wget -q https://developer.salesforce.com/media/salesforce-cli/sfdx/versions/7.173.0/5858bb0/sfdx-v7.173.0-5858bb0-linux-x64.tar.xz \
     && mkdir sfdx \
-    && tar xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1 \
+    && tar xJf sfdx-v7.173.0-5858bb0-linux-x64.tar.xz -C sfdx --strip-components 1 \
     && ./sfdx/install`;
   await onInstall(await exec(installCommand));
 };
