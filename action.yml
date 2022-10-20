@@ -1,4 +1,4 @@
-name: 'Setup SFDX'
+name: 'Setup SFDX nodev14'
 description: 'Install SFDX and plugins'
 branding:
   icon: arrow-down-circle
